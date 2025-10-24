@@ -32,6 +32,6 @@ jobs:
 
     # Запуск тестов
       - name: Запуск тестов
-        run: NODE_OPTIONS=--experimental-vm-modules npm test
+        run: npm test
     
 
